@@ -1,0 +1,16 @@
+[package]
+name = "wifi-music-game"
+version = "0.1.0"
+authors = ["Przemyslaw Majocha <przemyslaw.majocha@wp.pl>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossbeam = "0.3.0"
+rodio = "0.13.0"
+rand =  { version = "0.7.3", features = ["small_rng"] }
+html_parser = "0.6.2"
+reqwest = { version = "0.10.10", features = ["blocking"] }
+serde = "1.0.63"
+serde_json = "1.0"
